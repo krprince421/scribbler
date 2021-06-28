@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href ="css/post.css"></link>
+    <link rel="stylesheet" href ="css/bloglist.css"></link>
+    <script src="js/post.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <div class="header">
+
+        <h1 style="font-weight:normal ; font-size:40px;color:blue; margin-bottom:0px; margin-top:0%; ">scriBBler</h1>
+        
+        <button id="myBtn" class="header-button" style="position:absolute;  right:2%;">Sign In</button>
+        <button id="myBtn2" class="header-button" style="position:absolute; right:15%;">Sign Up</button>
+       
+        <span >Explore</span>
+        <span>Imagine</span>
+        <span>Create</span>
+      
+
+
+    </div>
+
+        <div class="conetent">
+        <h1 style="text-align:center ;font-weight:lighter;">My Collage</h1>
+
+       <button id="edit" onclick="fun()">Edit</button>
+       <button id="save" style="visibility: hidden ;" onclick="fun2()">Save</button>
+       <p id="myP" style="margin-top: 5% ;">My collage name is Lovely Professional University . It is situated at Phagwara Punjab
+            .The university was established in 2005 by Lovely International Trust .The university campus
+             spreads over 600 acres  in boundary on the outskirts of Jalandhar and houses over
+              30,000 students .In India, LPU is recognised by the University Grants Commission
+               (UGC), the National Council for Teacher Education  and the Council of Architecture 
+                and approved by the Pharmacy Council of India . It is also a member of the
+                Association of Indian Universities .
+
+              LPU's School of Agriculture is accredited by the Indian Council of Agricultural Research (ICAR).
+               Internationally, LPU is accredited by the Accreditation Council for Business Schools and
+               Programs  and a member of the Association of Commonwealth Universities .
+                The School of Law is temporarily approved by the Bar Council of India until 2018–2019.
+                 The distance education programmes are approved by the Distance Education Bureau .
+                LPU offers overall more than 50 courses.The National Institutional Ranking Framework
+                 ranked Lovely Professional University 99 overall in 2020,
+                  and 78 among universities. It also ranked 49 in the management ranking,
+                   29 in the pharmacy ranking and 87 in the engineering ranking.</p>
+        </div>
+    <div>
+    <button id="like12" onclick="like11()" >Like</button>
+    <button id="like13" onclick="like11()" >Liked</button>
+    <p id="like-content" style="color:red;position:absolute; top:73% ;left:1%;">Be the first one to like this!</p>
+    </div>
+    <div class="comment-text">
+    <textarea id="comment-1">Comment</textarea>
+    <button id="comment" onclick="fun4()">Comment</button>
+    
+    </div>
+    <p id="comm" style="position:absolute; top:90% ;"></p>
+    
+
+
+</body>
+</html>

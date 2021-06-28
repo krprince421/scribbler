@@ -1,0 +1,131 @@
+html{
+    height:100% ;
+}
+body{
+    background-image: url('../images/flower.jpeg') ;
+    background-repeat: no-repeat ;
+    background-position:center;
+    background-size:cover ;
+
+}
+.btn-post{
+   position:absolute ;
+   top:50% ;
+    font-weight: bolder ;
+   border:none ;
+   border-radius: 5px ;
+   padding: 1% 2% ;
+   background-color:rgba(252, 248, 11, 0.5) ;
+   left:33% ;
+   cursor:pointer ;
+   
+
+}
+.btn-post:hover{
+    background-color: rgba(199, 211, 38, 0.8) ;
+    
+}
+
+.modal , .modal2 , .modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   
+  }
+
+  .modal-content , .modal-content2 {
+    background-color: #fefefe;
+    border-radius: 2% ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+    height :70% ;
+  }
+  .modal-content4{
+    background-color: #fefefe;
+    border-radius: 2% ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height :70% ;
+  }
+  
+  /* The Close Button */
+  .close , .close2 , .close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus,
+  .close2:hover ,
+  .close2:focus,
+  .close4:hover ,
+  .close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  span , span2 h1{
+    font-family: 'Brush Script MT', cursive;
+    
+}
+
+.header-button{
+
+ background-color: rgba(17, 236, 101, 0.3) ;
+ padding:1% 2% ;
+ top:10px;
+ border:none ;
+ cursor:pointer ;
+ border-radius: 5px ;
+ font-weight: bolder ;
+ color:black;
+
+}
+.header-button:hover{
+    background-color: rgba(12, 245, 12, 0.5) ;
+}
+textarea{
+  height : 150px ;
+  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    
+
+    }
+input {
+    padding: 2%;
+      }
+
+label {
+      font-size: 20px;
+        
+      margin: 10px 0;
+            }
+            
+.login-btn {
+    background-color: green;
+    color: #fff;
+    padding: 2%;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+html{
+    height:100% ;
+}
+body{
+   
+    background-repeat: no-repeat ;
+    background-position:center;
+    background-size:cover ;
+    
+
+}
+.header-button{
+
+    background-color: rgba(17, 236, 101, 0.3) ;
+    padding:1% 2% ;
+    top: 10px;
+    border:none ;
+    cursor:pointer ;
+    border-radius: 5px ;
+    font-weight: bolder ;
+    color:black;
+   
+   }
+.header-button:hover{
+    background-color: rgba(12, 245, 12, 0.5) ;
+}
+#edit , #save {
+    background-color: rgba(255, 0, 0, 1) ;
+    position:absolute ;
+    right:5% ;
+    color:#fff;
+    height:30px ;
+    width:6% ;
+    border:2px solid red ;
+    border-radius:3px ;
+    cursor:pointer ;
+
+}
+#edit:hover,
+#edit:focus,
+#save:hover,
+#save:focus{
+    background-color: rgba(252, 10, 10, 0.986) ;
+}
+#like12 {
+    background-color: rgba(255, 0, 0, 1) ;
+    position:absolute ;
+    
+    left:1% ;
+    color:#fff;
+    height:30px ;
+    width:6% ;
+    border:2px solid red ;
+    border-radius:3px ;
+    cursor:pointer ; 
+}
+#like13{
+    background-color: rgba(255, 0, 0, 1) ;
+    position:absolute ;
+    left:1% ;
+    color:#fff;
+    height:30px ;
+    width:6% ;
+    border:2px solid red ;
+    border-radius:3px ;
+    cursor:pointer ; 
+    visibility:hidden ;
+}
+#like12:hover,
+#like12:focus{
+    background-color: rgba(252, 10, 10, 0.986) ;
+}
+p{
+    font-style:Monospace;
+    font-size:20px ;
+    
+    top:20%;
+}
+.comment-text{
+    position:absolute;
+    top:85% ;
+    width:80% ;
+}
+#comm{
+    border: 2px solid blue ;
+    width:100% ;
+    background:#fff;
+}
+
+
